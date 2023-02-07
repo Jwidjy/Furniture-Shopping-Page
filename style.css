@@ -1,0 +1,409 @@
+header {
+    margin-left: -15px;
+    height: 100px;
+    border-bottom: 1px solid gray;
+}
+
+body {
+    background-color: antiquewhite
+}
+
+/* Styling for header nav menu */
+.col-md-4 li {
+    margin-left: -50px;
+    list-style: none;
+    display: inline-block;
+    padding-right: 65px;
+}
+
+/* Styling text for header nav menu */
+.col-md-4 a {
+    line-height: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    color: black;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    padding: 0.25rem
+}
+
+/* Styling for button hover for nav menu */
+.col-md-4 a:hover {
+    border-radius: 10px;
+    box-shadow: inset 100px 0 0 0 grey;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+/* Styling for header right side */
+#header-right {
+    text-align: right;
+    line-height: 100px;
+    padding-right: 50px;
+}
+
+/* Styling for header right side list */
+#header-right li {
+    display: inline-block;
+    list-style: none;
+    padding-left: 30px;
+}
+
+/* Styling for header right side text */
+#header-right a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    color: black;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    padding: 0.25rem
+}
+
+/* Styling for header right side button hover */
+#header-right a:hover {
+    border-radius: 10px;
+    box-shadow: inset 100px 0 0 0 grey;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+/* Styling for promo banner */
+#promo-banner {
+    line-height: 30px;
+    justify-content: center;
+    height: 30px;
+    background-color: gray;
+    font-size: smaller;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+}
+
+/* Styling background image for attention grabber section */
+#pre-body {
+    height: 798px;
+    background-size: cover;
+    background-position: center right;
+    background-image: url("https://i.postimg.cc/VNhWDtPf/https-images-unsplash-com-photo-1617228133035-2347f159e755-ixlib-rb-4-0-3-ixid-Mnwx-Mj-A3f-DB8-MHxwa-G9.jpg");
+}
+
+/* Styling for opaque display gradient overlay */
+#white-box-prompt {
+    margin-left: -16px;
+    background-color: black;
+    height: 798px;
+    opacity: 75%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 1) 65%, rgba(0, 0, 0, 0));
+}
+
+/* Styling for big h1 heading */
+#white-box-prompt h1 {
+    position: relative;
+    top: 200px;
+    left: 40px;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    font-size: 4.6em;
+}
+
+/* Styling for description */
+#white-box-prompt .description {
+    position: relative;
+    top: 250px;
+    left: 40px;
+    color: white;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    line-height: 2;
+}
+
+/* Styling for button text link */
+#white-box-prompt button a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Styling for button */
+#white-box-prompt button {
+    position: relative;
+    top: 300px;
+    left: 40px;
+    color: white;
+    background-color: #C09465;
+    padding: 15px 50px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+/* Styling for button hover */
+#white-box-prompt button:hover {
+    box-shadow: inset 230px 0 0 0 #97744f;
+    color: white;
+    text-decoration: none;
+}
+
+/* Styling Popular Picks Header */
+#product-header {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;    
+}
+
+/* Styling Popular Picks text */
+#product-header h1 {
+    font-weight: bolder;
+}
+
+/* Styling effect for all grid elements */
+#products .col-md-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 400px;
+    text-align: center;
+}
+
+/* First image styling section */
+#products .col-md-4 .box-left {
+    margin-left: 200px;
+    line-height: 70px;
+    width: 400px;
+    border: solid lightgray;
+}
+
+#products .col-md-4 .box-left .product1 {
+    height: 300px;
+    width: 398px;
+    object-fit: cover;
+    overflow: hidden;
+    object-position: 0 100%;
+}
+
+#products .col-md-4 .box-left h5 {
+    position: relative;
+    top: 30px;
+}
+
+#products .col-md-4 .box-left p {
+    position: relative;
+    top: 20px;
+}
+
+#products .col-md-4 .box-left button {
+    line-height: 10px;
+    position: relative;
+    top: -10px;
+    color: white;
+    background-color: #C09465;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+#products .col-md-4 .box-left:hover {
+    background-color: rgba(119, 136, 153, 0.512);
+    opacity: 80%;
+}
+
+/* Second Image */
+#products .col-md-4 .box-middle {
+    line-height: 70px;
+    width: 400px;
+    border: solid lightgray;
+}
+
+#products .col-md-4 .box-middle .product2 {
+    height: 300px;
+    width: 398px;
+    object-fit: cover;
+    overflow: hidden;
+    object-position: 0 100%;
+}
+
+#products .col-md-4 .box-middle h5 {
+    position: relative;
+    top: 30px;
+}
+
+#products .col-md-4 .box-middle p {
+    position: relative;
+    top: 20px;
+}
+
+#products .col-md-4 .box-middle button {
+    line-height: 10px;
+    position: relative;
+    top: -10px;
+    color: white;
+    background-color: #C09465;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+#products .col-md-4 .box-middle:hover {
+    background-color: rgba(119, 136, 153, 0.512);
+    opacity: 80%;
+}
+
+/* Third Image */
+#products .col-md-4 .box-right {
+    margin-right: 200px;
+    line-height: 70px;
+    width: 400px;
+    border: solid lightgray;
+}
+
+#products .col-md-4 .box-right .product3 {
+    height: 300px;
+    width: 398px;
+    object-fit: cover;
+    overflow: hidden;
+    object-position: -10 100%;
+}
+
+#products .col-md-4 .box-right h5 {
+    position: relative;
+    top: 30px;
+}
+
+#products .col-md-4 .box-right p {
+    position: relative;
+    top: 20px;
+}
+
+#products .col-md-4 .box-right button {
+    line-height: 10px;
+    position: relative;
+    top: -10px;
+    color: white;
+    background-color: #C09465;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+#products .col-md-4 .box-right:hover {
+    background-color: rgba(119, 136, 153, 0.512);
+    opacity: 80%;
+}
+
+/* Fourth Image */
+#products .col-md-4 .box-left .product4 {
+    height: 300px;
+    width: 398px;
+    object-fit: cover;
+    overflow: hidden;
+    object-position: 0 50%;
+}
+
+/* Fifth Image */
+#products .col-md-4 .box-middle .product5 {
+    height: 300px;
+    width: 398px;
+    object-fit: cover;
+    overflow: hidden;
+    object-position: 0 65%;
+}
+
+/* Sixth Image */
+#products .col-md-4 .box-left .product6 {
+    height: 300px;
+    width: 398px;
+    object-fit: cover;
+    overflow: hidden;
+    object-position: -10 70%;
+}
+
+/* Seventh Image */
+#products .col-md-4 .box-middle .product7 {
+    height: 300px;
+    width: 398px;
+    object-fit: cover;
+    overflow: hidden;
+    object-position: 0px 90%;
+}
+
+/* Eighth Image */
+#products .col-md-4 .box-left .product8 {
+    height: 300px;
+    width: 398px;
+    object-fit: cover;
+    overflow: hidden;
+    object-position: 0px 25%;
+}
+
+/* Ninth Image */
+#products .col-md-4 .box-middle .product9 {
+    height: 300px;
+    width: 398px;
+    object-fit: cover;
+    overflow: hidden;
+    object-position: 0px 65%;
+}
+
+/* Note: Some images did not need object re-positioning */
+
+/* Space between products */
+.space {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+/* Footer section */
+footer {
+    background-color: gray;
+    color: white;
+    height: 200px;
+}
+
+#footer-logo {
+    display: inline-block;
+    margin-top: 50px;
+}
+
+#footer-logo p {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+footer #contact {
+    margin-top: 50px;
+    float: right;
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+footer form input {
+    border:none;
+    border-radius: 8px;
+}
+
+footer form input[type=text] {
+    color:black;
+    margin-left: 10px;
+    padding: 5px 0 5px 0;
+    border-bottom: solid black;
+    background-color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer form input[type=button] {
+    color: white;
+    background-color: black;
+    padding: 7px 20px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20px;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+footer form input[type=button]:hover {
+    box-shadow: inset 100px 0 0 0 #C09465;
+    color: white;
+    text-decoration: none;
+}
